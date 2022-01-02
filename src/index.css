@@ -16,6 +16,8 @@ html {
   box-sizing: inherit;
 }
 
+/* header styles statrt */
+
 .wrapper {
   max-width: 66.25rem;
   margin: 0 auto;
@@ -56,3 +58,13 @@ html {
 .header__link:active {
   opacity: 0.78;
 }
+/* header styles end */
+/* intron styles statrt */
+.intro {
+  height: 100vh;
+  background: url(./img/intro-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+
+/* intron styles end */
