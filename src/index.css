@@ -1,4 +1,4 @@
-@import-normalize;
+/* @import-normalize; */
 body {
   margin: 0;
   font-family: Lato;
@@ -9,10 +9,7 @@ body {
   color: #102746;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
+
 html {
   box-sizing: border-box;
 }
