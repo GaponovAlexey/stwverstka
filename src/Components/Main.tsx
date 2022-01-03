@@ -1,4 +1,5 @@
 import React from 'react'
+import { Benefits } from './Benefits'
 
 export const Main = () => {
   return (
@@ -22,6 +23,7 @@ export const Main = () => {
             </form>
           </div>
         </section>
+        <Benefits />
       </main>
     </div>
   )
