@@ -9,7 +9,7 @@ export const Benefits = () => {
       <div className='benefits_wrap'>
         <h2 className='benefits__title'>Benefits of Odigo</h2>
         <div className='benefits__cards'>
-          <div className='benefits_card'>
+          <div className='benefits__card'>
             <div className='benefits__card-pic'>
               <img
                 src={church}
