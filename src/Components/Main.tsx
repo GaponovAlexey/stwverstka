@@ -5,6 +5,7 @@ export const Main = () => {
     <div>
       <main className='main'>
         <section className='intro'>da</section>
+        
       </main>
     </div>
   )
