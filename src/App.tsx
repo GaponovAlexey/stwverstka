@@ -1,14 +1,12 @@
 import React from 'react'
 import { Header } from './Components/Header'
-
+import { Main } from './Components/Main'
 
 function App() {
   return (
     <>
-     <Header />
-      <main className='main'>
-        <section className='intro'>da</section>
-      </main>
+      <Header />
+      <Main />
     </>
   )
 }
