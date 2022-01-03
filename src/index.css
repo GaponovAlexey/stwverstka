@@ -59,12 +59,12 @@ html {
   opacity: 0.78;
 }
 /* header styles end */
+
 /* intron styles statrt */
 .intro {
   height: 100vh;
   background: url(./img/intro-bg.jpg) no-repeat center;
   background-size: cover;
 }
-
 
 /* intron styles end */
