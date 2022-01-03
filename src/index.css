@@ -62,9 +62,40 @@ html {
 
 /* intron styles statrt */
 .intro {
-  height: 100vh;
+  min-height: 100vh;
   background: url(./img/intro-bg.jpg) no-repeat center;
   background-size: cover;
+ padding-top: 263px;
 }
+.intro__title {
+  max-width: 619px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  border-bottom: 22px;
+}
+.intro__subtitle{
+  max-width: 546px;
+  border-bottom: 59px;
+}
+.search__form-field{
+  width: 297px;
+  background: transparent url('./img/svg/oval.svg') no-repeat left 2px;
+  border: 0;
+  border-bottom: 2px solid #BFC0C5;
+  margin-right: 60px;
+  color: #fff;
+  padding-left: 43px;
+  padding-bottom: 22px;
+}
+.form__submit {
+  padding: 15px 40px;
+  text-transform: uppercase;
+  background: #1B7DFF;
+}
+.form__submit:hover, .form__submit:active, .form__submit:focus {
+  background: #0750b1;
+}
+
 
 /* intron styles end */
