@@ -1,5 +1,6 @@
 import React from 'react'
 import { Benefits } from './Benefits'
+import { Places } from './Places'
 
 export const Main = () => {
   return (
@@ -16,14 +17,23 @@ export const Main = () => {
             </p>
             <form className='search__form'>
               <p className='form__info'>
-                <input type='text' className='search__form-field' placeholder='What would you like to do?' />
-                <input type='text' className='search__form-field' placeholder='Where would you like to go?' />
+                <input
+                  type='text'
+                  className='search__form-field'
+                  placeholder='What would you like to do?'
+                />
+                <input
+                  type='text'
+                  className='search__form-field'
+                  placeholder='Where would you like to go?'
+                />
                 <button className='form__submit'>search</button>
               </p>
             </form>
           </div>
         </section>
         <Benefits />
+        <Places />
       </main>
     </div>
   )
