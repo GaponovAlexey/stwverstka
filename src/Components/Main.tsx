@@ -1,6 +1,8 @@
 import React from 'react'
 import { Benefits } from './Benefits'
 import { Places } from './Places'
+import { TopPlaces } from './TopPlaces'
+import { Ture } from './Ture'
 
 export const Main = () => {
   return (
@@ -34,6 +36,8 @@ export const Main = () => {
         </section>
         <Benefits />
         <Places />
+        <Ture />
+        <TopPlaces />
       </main>
     </div>
   )
