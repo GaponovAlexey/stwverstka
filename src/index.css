@@ -93,6 +93,7 @@ img {
   background: url(./img/intro-bg.jpg) no-repeat center 83.23%;
   background-size: cover;
   padding-top: 263px;
+  padding-bottom: 223px;
 }
 .intro__title {
   max-width: 619px;
@@ -207,6 +208,10 @@ img {
 }
 /* benefits styles end */
 /* Places styles start */
+
+.places{
+  margin-bottom: 131px;
+}
 
 .places__catipon {
   display: flex;
