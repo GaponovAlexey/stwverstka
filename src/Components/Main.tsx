@@ -1,8 +1,10 @@
 import React from 'react'
 import { Benefits } from './Benefits'
+import { Footer } from './Footer'
 import { Places } from './Places'
 import { TopPlaces } from './TopPlaces'
 import { Ture } from './Ture'
+import { Videos } from './Videos'
 
 export const Main = () => {
   return (
@@ -38,6 +40,8 @@ export const Main = () => {
         <Places />
         <Ture />
         <TopPlaces />
+        <Videos />
+        <Footer />
       </main>
     </div>
   )

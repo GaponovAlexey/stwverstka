@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from '../img/odigo-logo.svg'
 
 export const Header = () => {
+  const [state, setstate] = useState(false)
+  window.onscroll = () => {
+    if (window.pageYOffset > 70) {
+      setstate(true)
+    } else {
+      setstate(false)
+    }
+  }
+
   return (
     <div>
-       <header className='header'>
+      <header className={!state ? 'header ' : 'header header_active'}>
         <div className='wrapper'>
           <div className='header__wrapper'>
             {/* logo */}
@@ -41,7 +50,6 @@ export const Header = () => {
           </div>
         </div>
       </header>
-        
     </div>
   )
 }
